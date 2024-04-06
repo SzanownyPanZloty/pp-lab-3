@@ -1,4 +1,4 @@
-package com.jz;
+package geometry;
 
 public class Point {
   private double x;
