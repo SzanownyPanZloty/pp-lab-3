@@ -1,9 +1,9 @@
-import geometry.Rectangle;
+import geometry.Square;
 
 public class Main {
   public static void main(String[] args) throws Exception {
-    Rectangle rectangle = new Rectangle(5, 10);
-    System.out.println("Area: " + rectangle.calculateArea());
-    System.out.println("Perimeter: " + rectangle.calculatePerimeter());
+    Square square = new Square(5);
+    System.out.println("Area: " + square.calculateArea());
+    System.out.println("Perimeter: " + square.calculatePerimeter());
   }
 }
